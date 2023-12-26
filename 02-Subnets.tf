@@ -63,20 +63,3 @@ resource "aws_subnet" "private-eu-central-1c" {
 
 
 
-
-#private_subnets = ["10.30.11.0/24", "10.30.2.0/24", "10.30.3.0/24"]
-
-
-
-
-# resource "aws_subnet" "subnet-public2" {
-
-#     vpc_id = aws_vpc.vpc.id
-#     cidr_block = "10.30.2.0/24"
-# }
-
-# resource "aws_subnet" "subnet-public3" {
-
-#     vpc_id = aws_vpc.vpc.id
-#     cidr_block = "10.30.3.0/24"
-# }
